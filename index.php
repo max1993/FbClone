@@ -8,7 +8,6 @@
 		$name['first'] =$row['fname'];
 		$name['last'] = $row['sname'];
 	}
-	$logo = "files/img/logo.jpg";
 	include("s.php");
 	include("h.php");
 	include("b.php");
