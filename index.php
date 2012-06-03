@@ -8,20 +8,8 @@
 		$name['first'] =$row['fname'];
 		$name['last'] = $row['sname'];
 	}
-?>
-<style>
-	*{padding: 0;margin: 0}
-	#header{background:blue}
-	/*#header{}*/
-</style>
-<div id="header">
-	<div class="left" style="float:left;background:red">
-		<div>logo</div>
-		<div>icon 1</div>
-		<div>icon 2</div>
-		<div>icon 3</div>
-		<div>search</div>
-
-	</div>
-	<div style="float:right">profile</div>
-</div>
+	$logo = "files/img/logo.jpg";
+	include("s.php");
+	include("h.php");
+	include("b.php");
+	include("f.php");

@@ -1,0 +1,1 @@
+<div id="header"><div style="background:red"><div class="left"><a href="?sk=logo"><img src="<?=$logo;?>" alt="logo"></a></div><div class="left"><div class="left icon">icon 1</div><div class="left icon">icon 2</div><div class="left icon">icon 3</div></div><div><form></form></div></div><div id="profile">profile</div></div>
