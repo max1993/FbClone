@@ -1,8 +1,15 @@
 <?
-	include("b.php");
-	include("h.php");
-	include("le.php");
-	include("m.php");
-	include("r.php");
-	include("f.php");
-?>
+	$c = mysql_connect("localhost","root","");
+	mysql_select_db("fb_db",$c);
+	//fetch user data and accign them to vars
+	$r = mysql_query("select * from user",$c);
+	while($row = mysql_fetch_assoc($r)){
+		$uid = $row['id'];
+		$name['first'] =$row['fname'];
+		$name['last'] = $row['sname'];
+	}
+	echo $name['first'] . " ".$name['last'];
+	?>
+<div id="header">
+	
+</div>
