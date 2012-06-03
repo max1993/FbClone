@@ -15,7 +15,7 @@
 	/*#header{}*/
 </style>
 <div id="header">
-	<div class="left"style="float:left;background:red">
+	<div class="left" style="float:left;background:red">
 		<div>logo</div>
 		<div>icon 1</div>
 		<div>icon 2</div>
