@@ -1,1 +1,3 @@
-<div id="main">middle</div>
+<div id="main">
+	middle
+</div>
